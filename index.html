@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Desarrollo Web</title>
+</head>
+<body>
+
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/KM/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">Inicio</a></li>
+                            <li><a href="#sobreMi" onclick="seleccionar(this)">Sobre mi</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">Servicios</a></li>
+                            <li><a href="#portafolio" onclick="seleccionar(this)">Portafolio</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">Contacto</a></li>
+                        </ul>
+                    </nav>
+
+                    <div id="icono-nav" onclick="responsiveMenu()">
+
+                        <i class="fa-solid fa-bars"></i>
+
+                    </div>
+
+                    <div class="redes">
+
+                    <a href="https://walink.co/fa40b6" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/kliver-mairena-merlo-bb9121220"  target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:kliverdm@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+
+                    </div>
+
+                </div>
+            </header>
+
+            <div class="presentacion">
+                <p class="bienvenido">Bienvenido</p>
+                <h2>Soy <span>Kliver Mairena</span>, Desarrollador</h2>
+                <p class="descripcion">
+                    El único modo de hacer un gran trabajo, es amar lo que haces.
+                </p>
+                <a href="#portafolio">Ir a portafolio</a>
+            </div>
+
+        </div>
+    </section>
+    
+    <section id="sobreMi">
+        <div class="contenedor-foto">
+            <img src="img/Foto.jpeg" alt="">
+        </div>
+
+        <div class="sobreMi">
+            <p class="titulo-sesion">Sobre mi</p>
+            <h2>Hola, soy <span>Kliver Mairena</span></h2>
+            <h3>Desarrollador</h3>
+                <p>Egresado de la carrera de ingeniería de sistemas en la Universidad Nacional de ingeniería (UNI).
+                   Desarrollador de sistemas; web, escritorio y mobile nativas. Diseño y creación de bases de datos.
+                
+                </p>
+
+                <p> Con años de experiencia en la gestión de sistemas,
+                    he sido capaz de adaptarme a los diferentes planes
+                    informáticos de las empresas para las que he trabajado.
+                    Adicionalmente, cuento con una gran capacidad de análisis de sistemas.
+                </p>
+            <a href="Recursos/CV(K. MAIRENA).pdf" download="CV_KliverM." target="_blank">Ver / Descargar CV</a>
+        </div>
+    </section>
+
+    <section id="servicios">
+        <h3 class="titulo-seccion">Mis servicios</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Sitios web estáticos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                </ul>
+
+                    <p>
+                    Perfecto para la creación de sitios web estático. Una página web informativa
+                    para presentar o demostrar productos o servicios, con un hermoso diseño personalizado
+                    a su gusto y poco tiempo de espera.
+                    </p>
+            </div>
+
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de WebApp</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>SQL</li>
+                </ul>
+                    <p>
+                    Escala al siguiente nivel con páginas dinamicas, perfectas para manejar cualquier
+                    tipo de negocio, ya sea ventas de servicios o productos, control de inventario, etc.
+                    Lo que usted piense, se puede hacer, todo es posible. 
+                    </p>
+            </div>
+
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Creación de Software de escritorio</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li></li>
+                    <li>Java</li>
+                    <li>SQL</li>
+                    <li></li>
+                </ul> 
+                    <p>
+                    Programa ejecutable de escritorio para cualquier tipo de negocio o administración.
+                    </p>
+            </div>
+
+        </div>
+
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>App mobile nativas</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li></li>
+                    <li>React Native</li>
+                    <li></li>
+                    
+                </ul>
+                    <p>
+                    Creación de aplicaciones mobiles nativas para sistemas android o ios.
+                    </p>
+            </div>
+
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Bases de datos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>MySQL</li>
+                    <li>SQL Server</li>
+                    <li>PostgreSQL</li>
+                </ul>
+                    <p>
+                    Diseño y creacion de bases de datos relacionales, para llevar un buen control,
+                    ya sea de negocios o administrativos.
+                    </p>
+            </div>
+
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Soporte Técnico</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Hardware</li>
+                    <li>Software</li>
+                    <li>Redes</li>
+                </ul>
+                    <p>
+                    Soporte técnico a Computadoras (escritorio/laptop) y servidores, instalación de
+                    cualquier sistema operativo y foftware para estas.
+                    diseño e instalación de redes locales y cámaras de seguridad. 
+                    </p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="contenedor-skills" id="skills">
+        <h3>Habilidades</h3>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>htlm & css</p>
+                <span class="porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class="barra-progreso1"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>javascript</p>
+                <span class="porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div id="js" class="barra-progreso2"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>bases de datos</p>
+                <span class="porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div id="bd" class="barra-progreso3"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>java</p>
+                <span class="porcentaje">95%</span>
+            </div>
+            <div class="barra">
+                <div id="jv" class="barra-progreso4"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>React</p>
+                <span class="porcentaje">85%</span>
+            </div>
+            <div class="barra">
+                <div id="rts" class="barra-progreso5"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="portafolio">
+        <h3 class="titulo-seccion">Mis proyectos</h3>
+        <br>
+        <div class="fila">
+
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://kliverdm.github.io/blackjack/" target="_blank">
+
+                    <img src="img/blackjack.jpeg" alt="">
+                    <div class="info">
+                        <h4>Blackjack</h4>
+                        <p>Diseño web</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://kliverdm.github.io/Tareas/#/" target="_blank">
+
+                    <img src="img/tareas.jpg" alt="">
+                    <div class="info">
+                        <h4>Tareas</h4>
+                        <p>Diseño web</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Sys.png" alt="">
+                <div class="info">
+                    <h4>Sistema ácademico</h4>
+                    <p>Java + SQLServer</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/blackjack.jpeg" alt="">
+                <div class="info">
+                    <h4>Descripción del proyecto</h4>
+                    <p>Diseño web</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/tareas.jpg" alt="">
+                <div class="info">
+                    <h4>Descripción del proyecto</h4>
+                    <p>Diseño web</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/blackjack.jpeg" alt="">
+                <div class="info">
+                    <h4>Descripción del proyecto</h4>
+                    <p>Diseño web</p>
+                </div>
+            </div>
+        </div> -->
+    </section>
+
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contacto</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre completo" class="input-mitad">
+                    <input type="text" placeholder="Dirección de email" class="input-mitad">
+
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema" class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje..." class="input-full"></textarea>
+                </div>
+                <input type="submit" value="Enviar mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Todos los derechos reservados - 2022</p>
+
+        <div class="redes">
+
+            <a href="https://walink.co/fa40b6" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/kliver-mairena-merlo-bb9121220" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:kliverdm@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+
+            </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
