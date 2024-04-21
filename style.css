@@ -369,9 +369,9 @@ html {
     animation: progreso5 3s forwards;
 }
 
-.contenedor-skills .skill .barra .barra-progreso5 {
+.contenedor-skills .skill .barra .barra-progreso6 {
     background-color: #fff;
-    width: 85%;
+    width: 80%;
     height: 6px;
     animation: progreso6 3s forwards;
 }
@@ -415,6 +415,15 @@ html {
 }
 
 @keyframes progreso5 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes progreso6 {
     0% {
         width: 0%;
     }
